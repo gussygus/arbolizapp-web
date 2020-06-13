@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #ffffff;
+    background: transparent;
     background-image: url("../assets/img/fondo.png");
     background-size: cover;
     background-position: center;
@@ -26,13 +26,12 @@ body {
 }
 
 .form-box {
- padding: 20px;
+    padding: 40px;
     background: transparent;
     text-align: center;
 }
 
 .form-title {
-    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -47,7 +46,7 @@ body {
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: #28a745;
+    color:#28a745;
     border-radius: 24px;
     transition: 0.25s;
 }
